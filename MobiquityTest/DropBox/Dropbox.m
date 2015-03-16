@@ -9,8 +9,8 @@
 #import "Dropbox.h"
 
 //#warning INSERT YOUR OWN API KEY and SECRET HERE
-static NSString *apiKey = @"wss39fwdxk1xugi";
-static NSString *appSecret = @"anaxktyo108y2lv";
+static NSString *apiKey = @"tn0bhb0io8mh82z";
+static NSString *appSecret = @"yyf66tcfenm81jg";
 
 //#warning THIS FOLDER MUST BE CREATED AT THE TOP LEVEL OF YOUR DROPBOX FOLDER, you can then share this folder with others
 NSString * const appFolder = @"TestApp";
@@ -25,7 +25,7 @@ NSString * const dropboxTokenReceivedNotification = @"have_user_request_token";
 NSString * const requestToken = @"requestToken";
 NSString * const requestTokenSecret = @"requestTokenSecret";
 
-NSString * const accessToken = @"s8kuqkl7vw0AAAAAAAAABahY1nTJhTipFu81XuJj52pelVZcOL-jFSK3hnwv7_Tg";
+NSString * const accessToken = @"accessToken";
 NSString * const accessTokenSecret = @"accessTokenSecret";
 
 
@@ -136,9 +136,9 @@ NSString * const accessTokenSecret = @"accessTokenSecret";
 
 + (NSURL*)createPhotoUploadURL
 {
-
-//    NSString *urlWithParams = [NSString stringWithFormat:@"https://api-content.dropbox.com/1/files_put/dropbox/%@/photos/testPhoto_%i.jpg",appFolder,arc4random() % 1000];
-     NSString *urlWithParams = [NSString stringWithFormat:@"https://api-content.dropbox.com/1/files_put/dropbox/%@/photos/",appFolder];
+    
+    //    NSString *urlWithParams = [NSString stringWithFormat:@"https://api-content.dropbox.com/1/files_put/dropbox/%@/photos/testPhoto_%i.jpg",appFolder,arc4random() % 1000];
+    NSString *urlWithParams = [NSString stringWithFormat:@"https://api-content.dropbox.com/1/files_put/dropbox/%@/photos/",appFolder];
     NSURL *url = [NSURL URLWithString:urlWithParams];
     return url;
 }
