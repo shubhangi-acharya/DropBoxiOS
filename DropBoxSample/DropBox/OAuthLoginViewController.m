@@ -59,7 +59,7 @@
                 [[NSUserDefaults standardUserDefaults] synchronize];
                 
                 
-                NSString *authorizationURLWithParams = [NSString stringWithFormat:@"https://www.dropbox.com/1/oauth/authorize?oauth_token=%@&oauth_callback=MobiquityTest://userauthorization",oauthDict[oauthTokenKey]];
+                NSString *authorizationURLWithParams = [NSString stringWithFormat:@"https://www.dropbox.com/1/oauth/authorize?oauth_token=%@&oauth_callback=DropBoxSample://userauthorization",oauthDict[oauthTokenKey]];
                 
                 // escape codes
                 NSString *escapedURL = [authorizationURLWithParams stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
