@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4E937A3C1AB409F9008D5128"
-               BuildableName = "MobiquityTest.app"
-               BlueprintName = "MobiquityTest"
-               ReferencedContainer = "container:MobiquityTest.xcodeproj">
+               BuildableName = "DropBoxSample.app"
+               BlueprintName = "DropBoxSample"
+               ReferencedContainer = "container:DropBoxSample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4E937A601AB409F9008D5128"
-               BuildableName = "MobiquityTestTests.xctest"
-               BlueprintName = "MobiquityTestTests"
-               ReferencedContainer = "container:MobiquityTest.xcodeproj">
+               BuildableName = "DropBoxSampleTests.xctest"
+               BlueprintName = "DropBoxSampleTests"
+               ReferencedContainer = "container:DropBoxSample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4E937A601AB409F9008D5128"
-               BuildableName = "MobiquityTestTests.xctest"
-               BlueprintName = "MobiquityTestTests"
-               ReferencedContainer = "container:MobiquityTest.xcodeproj">
+               BuildableName = "DropBoxSampleTests.xctest"
+               BlueprintName = "DropBoxSampleTests"
+               ReferencedContainer = "container:DropBoxSample.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4E937A3C1AB409F9008D5128"
-            BuildableName = "MobiquityTest.app"
-            BlueprintName = "MobiquityTest"
-            ReferencedContainer = "container:MobiquityTest.xcodeproj">
+            BuildableName = "DropBoxSample.app"
+            BlueprintName = "DropBoxSample"
+            ReferencedContainer = "container:DropBoxSample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -72,13 +72,14 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4E937A3C1AB409F9008D5128"
-            BuildableName = "MobiquityTest.app"
-            BlueprintName = "MobiquityTest"
-            ReferencedContainer = "container:MobiquityTest.xcodeproj">
+            BuildableName = "DropBoxSample.app"
+            BlueprintName = "DropBoxSample"
+            ReferencedContainer = "container:DropBoxSample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -90,13 +91,14 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4E937A3C1AB409F9008D5128"
-            BuildableName = "MobiquityTest.app"
-            BlueprintName = "MobiquityTest"
-            ReferencedContainer = "container:MobiquityTest.xcodeproj">
+            BuildableName = "DropBoxSample.app"
+            BlueprintName = "DropBoxSample"
+            ReferencedContainer = "container:DropBoxSample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
